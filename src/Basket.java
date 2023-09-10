@@ -13,6 +13,7 @@ public class Basket implements BasketInterface {
         for (int i = 0; i < items.size(); i++) {
             if (items.get(i).getInventoryTableRow().getColumnOne().equalsIgnoreCase(itemName)) {
                 return i;
+                x = 5;
             }
         }
         return -1;
